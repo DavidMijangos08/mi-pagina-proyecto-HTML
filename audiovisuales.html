@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web</title>
+    <link rel="shortcut icon" href="icono.ico" type="image/x-icon">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+         }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>David Alexander Mijangos Paredes</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="active" href="audiovisuales.html">Fotos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <h3>Mis fotos...</h3>
+
+    
+    <section class="centrado">
+        <div class="gallery">
+            <a href="./assets/img/imagen1.jpeg"><img src="./assets/img/imagen1.jpeg" alt="Imagen1" width="300"></a>
+            <div>📍Huatulco</div>
+        </div class="desc">
+
+        <div class="gallery">
+            <a href="./assets/img/imagen3.jpeg"><img src="./assets/img/imagen3.jpeg" alt="Imagen1" width="300"></a>
+            <div class="desc">📍Cafetería en Xalapa</div>
+        </div>
+        
+        <div class="gallery">
+            <a href="./assets/img/imagen4.jpeg"><img src="./assets/img/imagen4.jpeg" alt="Imagen1" width="300"></a>
+            <div class="desc">📍Pasta en Coatepec</div>
+        </div>
+        <div class="gallery">
+            <a href="./assets/img/imagen5.jpeg"><img src="./assets/img/imagen5.jpeg" alt="Imagen1" width="300"></a>
+            <div class="desc">📍Xalapa y su neblina</div>
+        </div> 
+        <div class="gallery">
+            <a href="./assets/img/imagen6.jpeg"><img src="./assets/img/imagen6.jpeg" alt="Imagen1" width="300"></a>
+            <div class="desc">📍Estado de Chiapas</div>
+        </div> 
+        <div class="gallery">
+            <a href="./assets/img/imagen7.jpeg"><img src="./assets/img/imagen7.jpeg" alt="Imagen1" width="300"></a>
+            <div class="desc">📍Hotel en Huatulco</div>
+        </div> 
+        <div class="gallery">
+            <a href="./assets/img/imagen8.jpeg"><img src="./assets/img/imagen8.jpeg" alt="Imagen1" width="300"></a>
+            <div class="desc">📍Mezcal en Huatulco</div>
+        </div>  
+        <div class="gallery">
+            <a href="./assets/img/imagen11.jpeg"><img src="./assets/img/imagen11.jpeg" alt="Imagen1" width="300"></a>
+            <div class="desc">📍Rancho</div>
+        </div> 
+        <div class="gallery">
+            <a href="./assets/img/imagen12.jpeg"><img src="./assets/img/imagen12.jpeg" alt="Imagen1" width="300"></a>
+            <div class="desc">📍Grutas de Rancho Nuevo</div>
+        </div>    
+    </section>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>

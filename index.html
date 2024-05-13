@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web</title>
+    <link rel="shortcut icon" href="icono.ico" type="image/x-icon">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #45a049;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 10px 10px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>David Alexander Mijangos Paredes</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="audiovisuales.html">Fotos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+ 
+    <article class="container">
+        <img class="image" src="./assets/img/perfil1.jpeg" alt="Este soy yo...">
+        <h3>Un poco sobre mí...</h3>
+        <p>Hola, mi nombre es David Mijangos, tengo 22 años, 
+            y nací en la ciudad de Matías Romero, Oaxaca <br>
+            Soy Ingeniero de Software egresado de la Universidad Veracruzana. Durante mis estudios  
+            estuve viviendo en la ciudad de Xalapa, Veracruz.
+        </p>
+        <!--img class="image" src="./assets/img/imagen5.jpeg" alt="Imagen 1">-->
+        <p>Una de las cosas que más me gusta hacer es viajar. No he conocido muchos lugares, pero si me gustaría en un futuro hacerlo. 
+            Suelo tomar muchas fotografías para tener recuerdos de los viajes, comidas, bebidas, lugares, etc.
+        </p>
+
+    </article>
+
+    <footer class="footer">
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>
